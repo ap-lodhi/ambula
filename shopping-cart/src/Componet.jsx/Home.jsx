@@ -47,10 +47,10 @@ console.log(products)
                 RS- {ele.price}
               </Button>
               <Button color="secondary" size="large">
-                Share
+               Rating {ele.rating.rate}
               </Button>
               <Button color="secondary" size="large">
-                Learn More
+                Add to cart
               </Button>
             </CardActions>
           </Card>
