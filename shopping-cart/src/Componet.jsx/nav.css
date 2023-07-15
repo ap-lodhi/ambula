@@ -1,0 +1,36 @@
+
+.container{
+
+    width: 100%;
+}
+.navbar {
+    background-color: #ccb8b8;
+  padding: 15px;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.nav-link {
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  background-color: #ddd;
+}
+
+.nav-link.active {
+  background-color: #4CAF50;
+  color: white;
+}
