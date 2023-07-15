@@ -5,6 +5,7 @@ import { Navbar } from './Componet.jsx/Navbar';
 import { Home } from './Componet.jsx/Home';
 import { About } from './Componet.jsx/About';
 import { Contact } from './Componet.jsx/Contact';
+import Footer from './Componet.jsx/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/contact" element={<Contact />}></Route>
        
       </Routes>
+      <Footer/>
     </Router>
     </>
   );
